@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Committed</string>
+
+    <string name="general_button_confirm">Confirm</string>
+
+    <string name="general_regularity_every_day">every day</string>
+    <string name="general_regularity_monday">mon</string>
+    <string name="general_regularity_tuesday">tue</string>
+    <string name="general_regularity_wednesday">wed</string>
+    <string name="general_regularity_thursday">thu</string>
+    <string name="general_regularity_friday">fri</string>
+    <string name="general_regularity_saturday">sat</string>
+    <string name="general_regularity_sunday">sun</string>
+
+    <string name="screen_create_habit_name_label">What do you commit to do?</string>
+    <string name="screen_create_habit_regularity_label">How often?</string>
+</resources>

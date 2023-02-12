@@ -1,0 +1,13 @@
+package com.aghmat.committed.domain.model
+
+import androidx.room.Embedded
+import androidx.room.Relation
+
+data class HabitWithRegularities(
+    @Embedded val habit: Habit,
+    @Relation(
+        parentColumn = "id",
+        entityColumn = "habit_id"
+    )
+    val regularities: List<Regularity>
+)
